@@ -1,0 +1,22 @@
+.componentLinks{
+    width:500px;
+    height: 50px;
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: larger;
+    
+    
+}
+.landingWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+Link{
+    text-decoration: none;
+}
