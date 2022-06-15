@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 const HomePage = () => {
   const nav = useNavigate();
   const userLogout=()=>{
-    axios.post("http://localhost:5000/api/v1/user/register",
+    axios.post("http://localhost:5000/api/v1/user/logout",
     {       
             mode:'cors',
             headers:{
